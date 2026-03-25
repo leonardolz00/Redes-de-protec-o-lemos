@@ -28,4 +28,65 @@
         .section-title { text-align: center; margin-bottom: 40px; font-size: 2rem; }
         .grid-testemunhos { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; width: 90%; max-width: 1200px; margin: auto; }
         .card-testemunho { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
-        .stars {
+        .stars { color: #ffcc00; margin-bottom: 10px; }
+
+        /* Galeria */
+        .galeria { padding: 60px 0; width: 90%; max-width: 1200px; margin: auto; }
+        .grid-fotos { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 15px; }
+        .foto-item { height: 300px; background: #eee; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #aaa; overflow: hidden; border: 1px solid #ddd; }
+        
+        footer { background: #222; color: white; text-align: center; padding: 40px 0; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="nav-container">
+        <div class="logo">NOME DA SUA EMPRESA</div>
+        <a href="https://wa.me/5500000000000" class="btn btn-whats" style="padding: 10px 20px; font-size: 0.9rem;">Orçamento Rápido</a>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>Sua família protegida com redes de alta resistência.</h1>
+    <p>Instalação profissional em janelas, sacadas e piscinas. Material certificado e 5 anos de garantia.</p>
+    <a href="https://wa.me/5500000000000" class="btn btn-whats">FALAR COM UM ESPECIALISTA AGORA</a>
+</section>
+
+<section class="galeria">
+    <h2 class="section-title">Nosso Trabalho</h2>
+    <div class="grid-fotos">
+        <div class="foto-item">FOTO REDE JANELA</div>
+        <div class="foto-item">FOTO REDE SACADA</div>
+        <div class="foto-item">FOTO REDE PISCINA</div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <h2 class="section-title">O que dizem nossos clientes</h2>
+    <div class="grid-testemunhos">
+        <div class="card-testemunho">
+            <div class="stars">★★★★★</div>
+            <p>"Instalação super rápida e limpa. O técnico foi muito atencioso e a rede ficou bem discreta na minha janela. Recomendo!"</p>
+            <strong>- Ricardo Souza (Apartamento no Morumbi)</strong>
+        </div>
+        <div class="card-testemunho">
+            <div class="stars">★★★★★</div>
+            <p>"Coloquei na piscina e na sacada por causa dos meus gatos. O material é muito forte, valeu cada centavo pela paz de espírito."</p>
+            <strong>- Ana Beatriz (Residencial Flora)</strong>
+        </div>
+        <div class="card-testemunho">
+            <div class="stars">★★★★★</div>
+            <p>"Melhor preço da região e atendimento nota 10 pelo WhatsApp. Marcaram e chegaram no horário certinho."</p>
+            <strong>- Marcos Oliveira (Edifício Horizonte)</strong>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 NOME DA SUA EMPRESA - Especialistas em Segurança Residencial</p>
+    <p>CNPJ: 00.000.000/0001-00 | Atendimento em toda região.</p>
+</footer>
+
+</body>
+</html>
